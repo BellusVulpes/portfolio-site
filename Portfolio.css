@@ -1,0 +1,35 @@
+body {
+background-color: aquamarine;
+}
+
+.cloud {
+    background-color: white;
+    border-radius: 100px;
+    height: 100px;
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 50px;
+    position: relative;
+}
+
+.cloud::before {
+    background-color: white;
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+    content: '';
+    position:absolute;
+    top: -40px;
+    left: 35px;
+}
+
+.cloud::after {
+    background-color: white;
+    border-radius: 160px;
+    height: 160px;
+    width: 160px;
+    content: '';
+    position:absolute;
+    top: -80px;
+    left: 110px;
+}
